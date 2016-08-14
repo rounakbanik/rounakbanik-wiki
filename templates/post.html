@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{wikipost.subject}}</title>
+	</head>
+	<body>
+		<h1>{{wikipost.subject }}</h1>
+		<ul>
+			<li><a href='/logout'>Logout</a></li>
+			<li><a href="/_edit/{{wikipost.subject}}">Edit</a></li>
+		</ul>
+		<div>
+			{{ wikipost.content | safe}}
+		</div>
+	</body>
+</html>

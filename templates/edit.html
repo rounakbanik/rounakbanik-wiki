@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Edit Page</title>
+		<style type="text/css">
+			textarea {
+				height: 300px;
+				width: 700px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Edit Page</h1>
+		<br>
+		<form method='post'>
+			<label>Content: </label>
+			<br>
+			<br>
+			<textarea name='content'>{{content}}</textarea>
+			<br>
+			<div class='error'>{{error}}</div>
+			<input type='submit'>
+		</form>
+	</body>
+</html>
